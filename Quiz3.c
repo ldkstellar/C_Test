@@ -150,7 +150,6 @@ void findxy(int myx ,int myY){
     //     printf("%d\n",max[i]);
     // }
     
-
     sortmax();      
 }
     

@@ -135,7 +135,7 @@ void quiz(int* a ,int* b){
     printf("%d",mytemp);
 }
     
-// refectoring은 할일이 많아서....
+// refactoring은 할일이 많아서....
 void main(){
     int a;
     int b;
