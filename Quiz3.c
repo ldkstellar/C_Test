@@ -74,7 +74,7 @@ void sortmax(){
                 printf("좌");
                 break;    
             }
-            printf("%d",i);
+            // printf("%d",i);
         }
     }
 
@@ -145,10 +145,10 @@ void findxy(int myx ,int myY){
         else if(maze[myY][i] == 1){
             break;
             }
-    for (int i = 0; i < 4; i++)
-    {
-        printf("%d\n",max[i]);
-    }
+    // for (int i = 0; i < 4; i++)
+    // {
+    //     printf("%d\n",max[i]);
+    // }
     
 
     sortmax();      
@@ -159,7 +159,7 @@ void findxy(int myx ,int myY){
 
 int main() {
     printf("좌표를 입력하세요:");
-    scanf("%d %d", &myx,&myY);
+    scanf("%d%d", &myx,&myY);
     findxy(myx,myY);
    
 
